@@ -23,21 +23,21 @@ public class MainActivity extends AppCompatActivity {
         this.b1 =(Button)findViewById(R.id.button1);
         this.tvMain = (TextView) findViewById(R.id.tvMain); //this kviecia globalu
         this.tvMain.setText("Pagrindinis langas - Labas");
-        this.upButton = findViewById(R.id.up);
+        this.upButton = findViewById(R.id.buttonUp);
     }
 
     public void onBtnMainClick(View view) {
         this.tvMain.setText("Paspausta");
     }
 
-    public void onBtnMain2Color(View view) {
+    public void onButton2Color(View view) {
         tvMain.setTextColor(Color.rgb(200,240,200));
 
     }
-    public void onBtnMainSize (View view) {
+    public void onButtonUpSize (View view) {
         tvMain.setTextSize(tvMain.getTextSize() + diff);
     }
-    public void onBtnMainStyle(View view) {
+    public void onButton1Style (View view) {
         tvMain.setTypeface(Typeface.MONOSPACE);
     }
 
